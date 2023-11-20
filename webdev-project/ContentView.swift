@@ -5,8 +5,6 @@
 //  Created by Atte Kilpeläinen on 14.11.2023.
 //
 
-// esimerkki-kartta näkyissä
-
 import SwiftUI
 import MapKit
 
@@ -23,6 +21,8 @@ struct ContentView: View {
          Button("search for a place") {
             mapAPI.getLocation(address: text, delta: 0.5)
          }
+          
+          // Added geometryreader to resize map to half
          
           GeometryReader { geometry in
               Map(coordinateRegion: $mapAPI.region, annotationItems: mapAPI.locations) { location in
