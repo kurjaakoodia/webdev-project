@@ -14,6 +14,7 @@
 		DC3375562B039B5A003E5213 /* webdev_projectTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC3375552B039B5A003E5213 /* webdev_projectTests.swift */; };
 		DC3375602B039B5A003E5213 /* webdev_projectUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC33755F2B039B5A003E5213 /* webdev_projectUITests.swift */; };
 		DC3375622B039B5A003E5213 /* webdev_projectUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC3375612B039B5A003E5213 /* webdev_projectUITestsLaunchTests.swift */; };
+		DC6B5DF12B0B47200058ECA3 /* MapModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC6B5DF02B0B47200058ECA3 /* MapModel.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -44,6 +45,7 @@
 		DC33755B2B039B5A003E5213 /* webdev-projectUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "webdev-projectUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		DC33755F2B039B5A003E5213 /* webdev_projectUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = webdev_projectUITests.swift; sourceTree = "<group>"; };
 		DC3375612B039B5A003E5213 /* webdev_projectUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = webdev_projectUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		DC6B5DF02B0B47200058ECA3 /* MapModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = MapModel.swift; path = ../../projectdev/projectdev/MapModel.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -96,6 +98,7 @@
 			children = (
 				DC3375442B039B58003E5213 /* webdev_projectApp.swift */,
 				DC3375462B039B58003E5213 /* ContentView.swift */,
+				DC6B5DF02B0B47200058ECA3 /* MapModel.swift */,
 				DC3375482B039B5A003E5213 /* Assets.xcassets */,
 				DC33754A2B039B5A003E5213 /* Preview Content */,
 			);
@@ -258,6 +261,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				DC3375472B039B58003E5213 /* ContentView.swift in Sources */,
+				DC6B5DF12B0B47200058ECA3 /* MapModel.swift in Sources */,
 				DC3375452B039B58003E5213 /* webdev_projectApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
